@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 82.5%;
+  }
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  background: #fefefe;
+  font-family: Georgia, Times, "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 1.7;
+  font-size: 1rem;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.gradient-text {
+  background-color: #000;
+  background-image: linear-gradient(45deg, #a72365, #000);  
+
+  
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #f39;
+  text-decoration: none;
+  border-bottom: 1px dotted #f39;
+  font-style: italic;
+}
+
+a:hover {
+  border-bottom-style: solid;
+}
+
+
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 6rem 3rem 3rem;
+  }
+}
+
+
+@media screen and (min-width: 1150px) {
+  .container {
+    padding-top: 10rem;
+  }
+}
+
+
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 1.35rem auto 4rem;
+  background-image: url("./images/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar {
+    margin: 1.35rem 4rem 0 0;    
+    width: 220px;
+    height: 220px;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .avatar {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.content {
+  overflow: hidden;
+  /* text-align: center */
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    text-align: left;
+  }
+}
